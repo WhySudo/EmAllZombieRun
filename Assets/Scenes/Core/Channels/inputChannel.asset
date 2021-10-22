@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32510e0c95b94ef0abaf4d075101a24e, type: 3}
+  m_Name: inputChannel
+  m_EditorClassIdentifier: 
+  inputConfiguration: {fileID: 11400000, guid: 8c1ab8befb9c9b643bbe8afa44a0b289, type: 2}
