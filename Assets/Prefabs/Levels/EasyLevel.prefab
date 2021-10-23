@@ -578,17 +578,27 @@ PrefabInstance:
     - target: {fileID: 3303018794827229956, guid: 73930c29dabedc142ba974984d1a2b94, type: 3}
       propertyPath: personCollider
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4404325119606270180}
     - target: {fileID: 3303018794827229956, guid: 73930c29dabedc142ba974984d1a2b94, type: 3}
       propertyPath: lifeTimeBehaviour
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6755978660208024074}
     - target: {fileID: 8722064935359349937, guid: 73930c29dabedc142ba974984d1a2b94, type: 3}
       propertyPath: destroyList.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6755978660208024074}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73930c29dabedc142ba974984d1a2b94, type: 3}
+--- !u!136 &4404325119606270180 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 2844243373749339179, guid: 73930c29dabedc142ba974984d1a2b94, type: 3}
+  m_PrefabInstance: {fileID: 1902636818619215055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6755978660208024074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5162682978705422021, guid: 73930c29dabedc142ba974984d1a2b94, type: 3}
+  m_PrefabInstance: {fileID: 1902636818619215055}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1910312482138936544
 PrefabInstance:
   m_ObjectHideFlags: 0

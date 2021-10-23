@@ -12,7 +12,7 @@ namespace Core.Person.Other
         private void OnTriggerEnter(Collider other)
         {
             if (!other.TryGetComponent<PlayablePerson>(out var person)) return;
-            
+            if (person.IsDummy) return;
             person.Kill();
         }
     }
